@@ -1,0 +1,25 @@
+@use"./layout.scss";
+
+/*
+@use....(importar)
+
+$nombrevariable: propiedad;
+
+@mixin theme($theme: DarkGray) {
+     background: $theme;
+      box-shadow: 0 0 1px rgba($theme, .25); 
+      color: #fff; 
+} 
+
+ @nombre del objeto y ya lo llamas  
+ */
+
+ *{
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+     width: 100%;
+     max-width: 1440px;
+ }
+
+
